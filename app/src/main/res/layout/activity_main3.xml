@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#150D0B"
+    tools:context=".MainActivity3">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="207dp"
+        android:layout_height="134dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        app:srcCompat="@drawable/textlogo" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="16dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6">
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/my_button_bg"
+            android:ems="10"
+            android:hint="     Имя"
+            android:inputType="textPersonName"
+            android:textColor="#AFAFAF"
+            android:textColorHint="#AFAFAF"
+            android:textFontWeight="400"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/my_button_bg"
+            android:ems="10"
+            android:hint="     Фамилия"
+            android:inputType="textPersonName"
+            android:textColor="#AFAFAF"
+            android:textColorHint="#AFAFAF"
+            android:textFontWeight="400"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/editTextTextEmailAddress2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/my_button_bg"
+            android:ems="10"
+            android:hint="     E-mail"
+            android:inputType="textEmailAddress"
+            android:textColor="#AFAFAF"
+            android:textColorHint="#AFAFAF"
+            android:textFontWeight="400"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/my_button_bg"
+            android:ems="10"
+            android:hint="     Пароль"
+            android:inputType="textPassword"
+            android:textColor="#AFAFAF"
+            android:textColorHint="#AFAFAF"
+            android:textFontWeight="400"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/editTextTextPassword3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/my_button_bg"
+            android:ems="10"
+            android:hint="     Повторите пароль"
+            android:inputType="textPassword"
+            android:textColor="#AFAFAF"
+            android:textColorHint="#AFAFAF"
+            android:textFontWeight="400"
+            android:textSize="14sp" />
+
+        <Button
+            android:id="@+id/button3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/btn_bg"
+            android:text="Зарегистрироваться"
+            android:textAllCaps="false"
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/my_button_bg"
+            android:onClick="next"
+            android:text="У меня есть аккаунт"
+            android:textAllCaps="false"
+            android:textColor="#F44336" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
